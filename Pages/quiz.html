@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../Css/quiz.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="" class="LOGO">Bienvenue!</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="../index.html" class="active">Accueil</a>
+            <a href="./Propos.html">À propos</a>
+            <div class="dropdown">
+                <a href="../pages/expérience.html" class="dropdown-toggle">
+                    Expériences
+                    <i class='bx bx-chevron-down'></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="./expérience.html">Parcours académique</a></li>
+                    <li><a href="./expérience.html">Compétences</a></li>
+                    <li><a href="./expérience.html">Stages</a></li>
+                  
+                </ul>
+            </div>
+            <a href="./projet.html">Projets</a>
+            <a href="./Passion.html">Passions</a>
+            <a href="./quiz.html">Quiz</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Quiz Section -->
+    <div class="content">
+        <h1 class="title">
+            <span class="aurora-text">Quiz</span>
+            <div class="aurora">
+                <div class="aurora__item"></div>
+                <div class="aurora__item"></div>
+                <div class="aurora__item"></div>
+                <div class="aurora__item"></div>
+            </div>
+        </h1>
+    </div>
+    
+    <div id="quiz"></div> <!-- Where the quiz questions will appear -->
+    
+    <!-- Score Display -->
+    <div id="score" style="visibility: hidden;"></div> <!-- Hidden initially, will show after quiz completion -->
+
+    <script src="../Js/quiz.js"></script>
+</body>
+</html>
